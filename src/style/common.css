@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #2d374b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1610CD;
+  /*text-decoration: underline;*/
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.txt-cn{
+  text-align: center;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.mgtp-10 {
+  margin-top: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bs-wp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.oper-right-search {
+  float: right;
+  width: 240px;
+}
+
+/** NProgress rewrite **/
+#nprogress .spinner {
+  display: none;
+}
+
+/** NProgress rewrite **/
+
+/** element ui rewrite **/
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  line-height: 60px;
+}
+
+.el-main {
+  position: relative;
+  background-color: #E9EEF3;
+}
+
+.el-aside {
+  position: relative;
+  background-color: #D3DCE6;
+}
+
+.el-menu-item.is-active {
+  background-color: #eaf4fd;
+}
+
+.el-pagination {
+  padding-right: 0;
+}
+
+.el-button--mini {
+  padding: 7px 12px;
+}
+
+.el-dialog__body {
+  padding: 20px;
+}
+
+/** element ui rewrite **/

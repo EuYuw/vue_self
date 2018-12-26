@@ -1,6 +1,6 @@
-# dz_dfsm_web
+# VUE_SELF
 
-> dz_dfsm_web
+> VUE_SELF
 
 ## Build Setup
 

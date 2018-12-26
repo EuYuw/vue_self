@@ -21,6 +21,6 @@ git init //把这个目录变成Git可以管理的仓库
 git add . //提交所有到本地仓
 git commit -m "first commit" //把文件提交到仓库
 git remote add origin url //关联远程仓库
-git pull --rebase origin master //更新
+git pull origin master //更新
 git push -u origin master //把本地库的所有内容推送到远程库上
 ```
